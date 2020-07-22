@@ -1,0 +1,50 @@
+/*---------------页面滚动骨架图----------------*/
+
+#loader{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.skeleton-box{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.skeleton-box li{
+    height:20px;
+    margin:8px 0;
+    background-color: #eee;
+}
+
+
+.skeleton-info-box:after{
+    display:inline-block;
+    vertical-align: middle;
+    content: '';
+    height:100%;
+}
+
+.skeleton-info-box .modal-icon{
+    color:#ddd;
+    font-size: 60px;
+}
+
+.skeleton-info-box span{
+    font-size: 18px;
+    color:#ddd;
+}
+
+.skeleton-info-box ul{
+    list-style: none;
+    display:inline-block;
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+.skeleton-info-box ul li{
+    margin-bottom:6px;
+    text-align: center;
+}
